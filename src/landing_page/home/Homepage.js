@@ -17,7 +17,7 @@ const Homepage = () => {
     <Pricing />
     <Education />
     <OpenAcc />
-    <Footer />
+   
     </>
   )
 }
