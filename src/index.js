@@ -9,6 +9,7 @@ import Signup from './landing_page/signup/Signup';
 import About from './landing_page/about/About';
 import Navbar from './landing_page/Navbar';
 import Footer from './landing_page/Footer';
+import SupportPage from './landing_page/support/SupportPage'
 import {BrowserRouter , Routes , Route} from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,6 +23,7 @@ root.render(
       <Route path='/Signup' element={<Signup />}/>
       <Route path='/About' element={<About />}/>
       <Route path='/Productpage' element={ <Productpage />}/>
+      <Route path='/SupportPage' element={ <SupportPage />}/>
     </Routes>
     <Footer />
     </BrowserRouter>
